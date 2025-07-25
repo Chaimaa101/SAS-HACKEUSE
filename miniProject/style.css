@@ -1,0 +1,153 @@
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: rgb(181, 181, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.items {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    padding: 5px;
+}
+
+.btn {
+    background-color: cadetblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: #333;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.home, .image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image img {
+    border-radius: 7px;
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#propos {
+    background-color: beige;
+}
+
+#contact {
+    background-color: darkseagreen;
+}
+
+/* Forms */
+.form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.line {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: darkcyan;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+     background-color: aliceblue;
+     border-radius: 4px;
+     padding: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .items {
+        width: 100%;
+    }
+    
+    ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+}

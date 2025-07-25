@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box and Media Query</title>
+    <style>
+    
+        .division{
+            display: flex;
+            justify-content: space-BETWEEN;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+            background-color: blue;
+            padding: 15px 60px;
+            border-radius: 5%;
+            text-align: center;
+        }
+     
+        @media screen and (max-width : 768px){
+            a{
+                display: block;
+                margin: 10px 10px;
+            }
+            .division{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="menu">
+        <h2>Notre menu</h2>
+        <div class="division">
+            <a href="">Pizza</a>
+            <a href="">Patte</a>
+            <a href="">Jus</a>
+        </div>
+    </section>
+</body>
+</html>

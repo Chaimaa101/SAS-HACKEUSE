@@ -1,0 +1,6 @@
+{
+    "files.autoSaveWorkspaceFilesOnly": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "editor.formatOnSave": true
+}
