@@ -1,0 +1,55 @@
+
+body{
+    background-color: darkgray;
+    padding: 10px;
+}
+.projects{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+.card{
+    background-color: white;
+    border-radius: 7px;
+    height: 400px;
+}
+img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+h1,h3{
+    text-align: center;
+
+}
+.card p{
+    text-align: center;
+    line-height: 25px;
+    display: none;
+    
+}
+
+.card.active p{
+    display: block;
+}
+.featured{
+    grid-column: span 2;
+}
+.card:nth-child(7){
+    grid-column: span 3;
+}
+.card:nth-child(9){
+    grid-column: span 4;
+} 
+
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: repeat(1,1fr) 
+    }
+    .card {
+        grid-column: span 1 !important; 
+    }
+}
