@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Tajine de poulet",
+      "ingredients": [
+        "poulet",
+        "citron confit",
+        "olives",
+        "épices"
+      ],
+      "steps": "Faire revenir le poulet avec les épices, ajouter les olives et le citron confit, mijoter 45 min.",
+      "duration": "75 minutes"
+    },
+    {
+      "id": "9644",
+      "title": "Salade Marocaine",
+      "ingredients": [
+        "tomate",
+        "poivron",
+        "huile d'olive",
+        "cumin"
+      ],
+      "steps": "Couper les légumes, assaisonner, servir frais.",
+      "duration": "10 minutes"
+    }
+  ]
+}
