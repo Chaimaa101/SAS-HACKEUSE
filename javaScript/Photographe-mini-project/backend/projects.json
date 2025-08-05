@@ -1,22 +1,22 @@
 {
   "projects": [
     {
-      "id": "43fe",
-      "title": "hdsuhf",
-      "description": "image nature",
-      "image": "https://www.google.com/imgres?q=image%20nature&imgurl=https%3A%2F%2Fimages.ctfassets.net%2Fhrltx12pl8hq%2F28ECAQiPJZ78hxatLTa7Ts%2F2f695d869736ae3b0de3e56ceaca3958%2Ffree-nature-images.jpg%3Ffit%3Dfill%26w%3D1200%26h%3D630&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Ffr%2Fdiscover%2Ffree-nature-images&docid=j60c_kpznL5EnM&tbnid=cVgA8oYynNpqQM&vet=12ahUKEwjzhKLnyuqOAxXGUaQEHUR-N-oQM3oECBsQAA..i&w=1200&h=630&hcb=2&ved=2ahUKEwjzhKLnyuqOAxXGUaQEHUR-N-oQM3oECBsQAA"
+      "id": "a02a",
+      "title": "IMAGE 1",
+      "description": "HEY IT'sMY FIRST IMAGE",
+      "image": "./assets/photo1.jpg"
     },
     {
-      "id": "34c3",
-      "title": "hswdhchs",
-      "description": "sdfesuifc",
-      "image": "https://www.istockphoto.com/fr/photo/au-lever-du-soleil-lac-moraine-parc-national-de-banff-canada-gm471926619-29509562"
+      "id": "21a9",
+      "title": "image 2",
+      "description": "hello see more of my projects here",
+      "image": "./assets/photo2.jpg"
     },
     {
-      "id": "5d75",
-      "title": "bhqbhcq",
-      "description": "bhdbhzqbcq",
-      "image": "C:\\xampp\\htdocs\\projects\\SAS Hackeuses\\javaScript\\Photographe-mini-project\\frontend\\assets\\photo1.jpg"
+      "id": "b9a3",
+      "title": "IMAGE 3",
+      "description": "HELL OO DO YOU LIKR MY PHOTOS",
+      "image": "./assets/photo5.jpg"
     }
   ]
 }

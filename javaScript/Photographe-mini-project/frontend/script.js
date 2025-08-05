@@ -5,12 +5,12 @@ const form = document.getElementById('project-form');
 const afficherProjects = () => {
     axios.get(`http://localhost:4000/projects`)
         .then(res => {
-            projectsContainer.innerHTML = ''; // Clear existing projects
+            projectsContainer.innerHTML = ''; 
             res.data.forEach(element => {
                 const projectElem = document.createElement('div');
                 projectElem.classList.add("project");
                 projectElem.innerHTML = `
-                    <div class="img" style="background-image: url('${element.image || './assets/photo1.jpg'}');"></div>
+                    <img class="img" src="${element.image || './assets/photo1.jpg'}">
                     <div class="info">
                         <h3>${element.title}</h3>
                         <p>${element.description}</p>
